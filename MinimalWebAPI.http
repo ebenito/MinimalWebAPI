@@ -1,0 +1,11 @@
+@MinimalWebAPI_HostAddress = http://localhost:5153
+
+GET {{MinimalWebAPI_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
+
+GET {{MinimalWebAPI_HostAddress}}/api/greet/Esteban
+Accept: application/json
+
+###
